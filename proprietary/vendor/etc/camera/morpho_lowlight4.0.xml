@@ -18,11 +18,12 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>0</block_cnr>
         <mergenumber>3</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
 	  <iso value="204">
-        <ynr_weights>0,4,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
+        <ynr_weights>0,12,2,1,1,1,1,1,1,1,1</ynr_weights>
+        <cnr_weights>0,12,5,3,3,3,2,2,2,2,2</cnr_weights>
         <y_nr_level>1</y_nr_level>
         <c_nr_level>15</c_nr_level>
         <c_nr_times>2</c_nr_times>
@@ -35,15 +36,16 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>3</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
 	  <iso value="400">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
+        <ynr_weights>0,15,6,2,1,1,1,1,1,1,1</ynr_weights>
+        <cnr_weights>0,12,6,3,2,2,2,2,2,2,2</cnr_weights>
         <y_nr_level>1</y_nr_level>
         <c_nr_level>21</c_nr_level>
         <c_nr_times>3</c_nr_times>
-        <obc>3.0</obc>
+        <obc>2.0</obc>
         <gain>100</gain>
         <gamma>100</gamma>
         <contrast>0</contrast>
@@ -52,6 +54,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="900">
@@ -69,6 +72,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
 	  <iso value="1700">
@@ -86,6 +90,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="2400">
@@ -103,6 +108,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
 	  <iso value="3300">
@@ -120,6 +126,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="4800">
@@ -137,6 +144,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="6400">
@@ -154,6 +162,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="9500">
@@ -171,320 +180,8 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
-    </camera>
-
-    <camera id="1">
-      <iso value="118">
-        <ynr_weights>0,1,1,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,4,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>10</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>2</mergenumber>
-      </iso>
-
-      <iso value="218">
-        <ynr_weights>0,1,1,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,4,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>6</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>2</mergenumber>
-      </iso>
-
-      <iso value="418">
-        <ynr_weights>0,10,5,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,20,10,9,6,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>0.7</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="818">
-        <ynr_weights>0,10,10,8,4,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,20,10,9,5,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.5</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="1618">
-        <ynr_weights>0,10,6,4,2,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,50,10,8,5,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>40</c_nr_level> 
-        <c_nr_times>2</c_nr_times>
-        <obc>0.5</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-      
-      <iso value="2418">
-        <ynr_weights>0,20,8,6,6,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,18,8,6,4,5,2,2,2,2,2</cnr_weights>
-        <y_nr_level>2</y_nr_level>
-        <c_nr_level>55</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.4</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>80</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-      <iso value="3118">
-        <ynr_weights>0,30,10,10,5,5,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,60,15,10,7,6,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>47</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-    <iso value="3618">
-        <ynr_weights>0,30,10,10,5,5,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,60,15,10,7,6,2,2,2,2,2</cnr_weights>
-        <y_nr_level>4</y_nr_level>
-        <c_nr_level>60</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-    </camera>
-
-  </device>
-
-  <device name="wayne">
-    <camera id="0">
-      <iso value="110">
-        <ynr_weights>0,3,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>2</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>0</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="200">
-        <ynr_weights>0,4,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>2</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="400">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>3</y_nr_level>
-        <c_nr_level>16</c_nr_level>
-        <c_nr_times>3</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="800">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>9</y_nr_level>
-        <c_nr_level>17</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>1.6</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="1600">
-        <ynr_weights>0,5,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>10</y_nr_level>
-        <c_nr_level>18</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>1.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="2400">
-        <ynr_weights>0,5,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>15</y_nr_level>
-        <c_nr_level>20</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.8</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="3200">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>20</y_nr_level>
-        <c_nr_level>30</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="4800">
-        <ynr_weights>0,8,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>20</y_nr_level>
-        <c_nr_level>30</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-      <iso value="6500">
-        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>22</y_nr_level>
-        <c_nr_level>35</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-      <iso value="9700">
-        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>35</y_nr_level>
-        <c_nr_level>40</c_nr_level>
-        <c_nr_times>5</c_nr_times>
-        <obc>0.3</obc>
-        <gain>140</gain>
-        <gamma>100</gamma>
-        <contrast>20</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
     </camera>
 
     <camera id="1">
@@ -503,6 +200,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>0</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="200">
@@ -520,6 +218,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="400">
@@ -537,6 +236,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="800">
@@ -554,6 +254,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="1600">
@@ -571,6 +272,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
       
       <iso value="2400">
@@ -588,6 +290,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
       
       <iso value="3100">
@@ -605,6 +308,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
     <iso value="3800">
@@ -622,6 +326,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 	  
     <iso value="4400">
@@ -639,6 +344,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
     </camera>
@@ -658,6 +364,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>0</block_cnr>
         <mergenumber>3</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="200">
@@ -675,6 +382,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>3</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="400">
@@ -692,6 +400,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="800">
@@ -709,6 +418,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="1600">
@@ -726,6 +436,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="2400">
@@ -743,6 +454,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="3200">
@@ -760,6 +472,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="4800">
@@ -777,6 +490,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="6500">
@@ -794,6 +508,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="9700">
@@ -811,11 +526,11 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
-
     </camera>
-  </device>
 
+  </device>
   <device name="whyred_india">
     <camera id="0">
       <iso value="110">
@@ -833,6 +548,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>0</block_cnr>
         <mergenumber>2</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="200">
@@ -850,6 +566,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>2</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="400">
@@ -867,6 +584,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>3</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="800">
@@ -884,6 +602,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="1600">
@@ -901,6 +620,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="2400">
@@ -918,6 +638,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="3200">
@@ -935,6 +656,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="4800">
@@ -952,6 +674,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="6300">
@@ -969,6 +692,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="6400">
@@ -986,6 +710,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
     </camera>
@@ -1006,6 +731,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>0</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="200">
@@ -1023,6 +749,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="400">
@@ -1040,6 +767,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="800">
@@ -1057,6 +785,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>4</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="1600">
@@ -1074,6 +803,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="2400">
@@ -1091,6 +821,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
       <iso value="3100">
@@ -1108,6 +839,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
 
     <iso value="3600">
@@ -1125,1250 +857,7 @@
         <spike_noise_level>16</spike_noise_level>
         <block_cnr>1</block_cnr>
         <mergenumber>5</mergenumber>
-      </iso>
-    </camera>
-
-  </device>
-  <device name="tulip">
-    <camera id="0">
-      <iso value="104">
-        <ynr_weights>0,3,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>0</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-	  <iso value="204">
-        <ynr_weights>0,12,2,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,12,5,3,3,3,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-	  <iso value="400">
-        <ynr_weights>0,15,6,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,12,6,3,2,2,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>21</c_nr_level>
-        <c_nr_times>3</c_nr_times>
-        <obc>2.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="900">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>3</y_nr_level>
-        <c_nr_level>22</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>1.6</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-	  <iso value="1700">
-        <ynr_weights>0,5,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>4</y_nr_level>
-        <c_nr_level>30</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>1.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="2400">
-        <ynr_weights>0,5,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>8</y_nr_level>
-        <c_nr_level>40</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.8</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-	  <iso value="3300">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>10</y_nr_level>
-        <c_nr_level>40</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="4800">
-        <ynr_weights>0,8,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>10</y_nr_level>
-        <c_nr_level>50</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-      <iso value="6400">
-        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>12</y_nr_level>
-        <c_nr_level>55</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-      <iso value="9500">
-        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>70</y_nr_level>
-        <c_nr_level>60</c_nr_level>
-        <c_nr_times>5</c_nr_times>
-        <obc>0.3</obc>
-        <gain>140</gain>
-        <gamma>100</gamma>
-        <contrast>20</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-    </camera>
-
-    <camera id="1">
-      <iso value="118">
-        <ynr_weights>0,1,1,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,4,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>10</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>2</mergenumber>
-      </iso>
-
-      <iso value="218">
-        <ynr_weights>0,1,1,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,4,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>6</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>2</mergenumber>
-      </iso>
-
-      <iso value="418">
-        <ynr_weights>0,10,5,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,20,10,9,6,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>0.7</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="818">
-        <ynr_weights>0,10,10,8,4,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,20,10,9,5,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.5</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="1618">
-        <ynr_weights>0,10,6,4,2,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,50,10,8,5,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>40</c_nr_level> 
-        <c_nr_times>2</c_nr_times>
-        <obc>0.5</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-      
-      <iso value="2418">
-        <ynr_weights>0,20,8,6,6,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,18,8,6,4,5,2,2,2,2,2</cnr_weights>
-        <y_nr_level>2</y_nr_level>
-        <c_nr_level>55</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.4</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>80</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-      <iso value="3118">
-        <ynr_weights>0,30,10,10,5,5,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,60,15,10,7,6,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>47</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-    <iso value="3618">
-        <ynr_weights>0,30,10,10,5,5,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,60,15,10,7,6,2,2,2,2,2</cnr_weights>
-        <y_nr_level>4</y_nr_level>
-        <c_nr_level>60</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-    </camera>
-
-  </device>
-  <device name="tulip_india">
-    <camera id="0">
-      <iso value="104">
-        <ynr_weights>0,3,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>0</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-	  <iso value="204">
-        <ynr_weights>0,12,2,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,12,5,3,3,3,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-	  <iso value="400">
-        <ynr_weights>0,15,6,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,12,6,3,2,2,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>21</c_nr_level>
-        <c_nr_times>3</c_nr_times>
-        <obc>2.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="900">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>3</y_nr_level>
-        <c_nr_level>22</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>1.6</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-	  <iso value="1700">
-        <ynr_weights>0,5,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>4</y_nr_level>
-        <c_nr_level>30</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>1.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="2400">
-        <ynr_weights>0,5,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>8</y_nr_level>
-        <c_nr_level>40</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.8</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-	  <iso value="3300">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>10</y_nr_level>
-        <c_nr_level>40</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="4800">
-        <ynr_weights>0,8,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>10</y_nr_level>
-        <c_nr_level>50</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-      <iso value="6400">
-        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>12</y_nr_level>
-        <c_nr_level>55</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-      <iso value="9500">
-        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>70</y_nr_level>
-        <c_nr_level>60</c_nr_level>
-        <c_nr_times>5</c_nr_times>
-        <obc>0.3</obc>
-        <gain>140</gain>
-        <gamma>100</gamma>
-        <contrast>20</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-    </camera>
-
-    <camera id="1">
-      <iso value="118">
-        <ynr_weights>0,1,1,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,4,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>10</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>2</mergenumber>
-      </iso>
-
-      <iso value="218">
-        <ynr_weights>0,1,1,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,4,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>6</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>2</mergenumber>
-      </iso>
-
-      <iso value="418">
-        <ynr_weights>0,10,5,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,20,10,9,6,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>0.7</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="818">
-        <ynr_weights>0,10,10,8,4,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,20,10,9,5,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.5</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="1618">
-        <ynr_weights>0,10,6,4,2,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,50,10,8,5,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>40</c_nr_level> 
-        <c_nr_times>2</c_nr_times>
-        <obc>0.5</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-      
-      <iso value="2418">
-        <ynr_weights>0,20,8,6,6,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,18,8,6,4,5,2,2,2,2,2</cnr_weights>
-        <y_nr_level>2</y_nr_level>
-        <c_nr_level>55</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.4</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>80</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-      <iso value="3118">
-        <ynr_weights>0,30,10,10,5,5,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,60,15,10,7,6,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>47</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-    <iso value="3618">
-        <ynr_weights>0,30,10,10,5,5,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,60,15,10,7,6,2,2,2,2,2</cnr_weights>
-        <y_nr_level>4</y_nr_level>
-        <c_nr_level>60</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-    </camera>
-
-  </device>
-  <device name="lilium">
-    <camera id="0">
-      <iso value="104">
-        <ynr_weights>0,3,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>0</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-	  <iso value="204">
-        <ynr_weights>0,4,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-	  <iso value="400">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>21</c_nr_level>
-        <c_nr_times>3</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="900">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>3</y_nr_level>
-        <c_nr_level>22</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>1.6</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-	  <iso value="1700">
-        <ynr_weights>0,5,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>4</y_nr_level>
-        <c_nr_level>30</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>1.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="2400">
-        <ynr_weights>0,5,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>8</y_nr_level>
-        <c_nr_level>40</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.8</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-	  <iso value="3300">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>10</y_nr_level>
-        <c_nr_level>40</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="4800">
-        <ynr_weights>0,8,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>10</y_nr_level>
-        <c_nr_level>50</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-      <iso value="6400">
-        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>12</y_nr_level>
-        <c_nr_level>55</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-      <iso value="9500">
-        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>70</y_nr_level>
-        <c_nr_level>60</c_nr_level>
-        <c_nr_times>5</c_nr_times>
-        <obc>0.3</obc>
-        <gain>140</gain>
-        <gamma>100</gamma>
-        <contrast>20</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-    </camera>
-
-    <camera id="1">
-      <iso value="118">
-        <ynr_weights>0,1,1,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,4,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>10</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>2</mergenumber>
-      </iso>
-
-      <iso value="218">
-        <ynr_weights>0,1,1,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,4,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>6</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>2</mergenumber>
-      </iso>
-
-      <iso value="418">
-        <ynr_weights>0,10,5,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,20,10,9,6,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>0.7</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="818">
-        <ynr_weights>0,10,10,8,4,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,20,10,9,5,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.5</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="1618">
-        <ynr_weights>0,10,6,4,2,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,50,10,8,5,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>40</c_nr_level> 
-        <c_nr_times>2</c_nr_times>
-        <obc>0.5</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-      
-      <iso value="2418">
-        <ynr_weights>0,20,8,6,6,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,18,8,6,4,5,2,2,2,2,2</cnr_weights>
-        <y_nr_level>2</y_nr_level>
-        <c_nr_level>55</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.4</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>80</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-      <iso value="3118">
-        <ynr_weights>0,30,10,10,5,5,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,60,15,10,7,6,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>47</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-    <iso value="3618">
-        <ynr_weights>0,30,10,10,5,5,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,60,15,10,7,6,2,2,2,2,2</cnr_weights>
-        <y_nr_level>4</y_nr_level>
-        <c_nr_level>60</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-    </camera>
-
-  </device>
-  <device name="lilium_india">
-    <camera id="0">
-      <iso value="104">
-        <ynr_weights>0,3,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>0</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-	  <iso value="204">
-        <ynr_weights>0,4,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-	  <iso value="400">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,6,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>21</c_nr_level>
-        <c_nr_times>3</c_nr_times>
-        <obc>3.0</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="900">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>3</y_nr_level>
-        <c_nr_level>22</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>1.6</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-	  <iso value="1700">
-        <ynr_weights>0,5,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>4</y_nr_level>
-        <c_nr_level>30</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>1.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="2400">
-        <ynr_weights>0,5,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,8,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>8</y_nr_level>
-        <c_nr_level>40</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.8</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-	  <iso value="3300">
-        <ynr_weights>0,6,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>10</y_nr_level>
-        <c_nr_level>40</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-
-      <iso value="4800">
-        <ynr_weights>0,8,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>10</y_nr_level>
-        <c_nr_level>50</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-      <iso value="6400">
-        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>12</y_nr_level>
-        <c_nr_level>55</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.3</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-      <iso value="9500">
-        <ynr_weights>0,10,2,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,10,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>70</y_nr_level>
-        <c_nr_level>60</c_nr_level>
-        <c_nr_times>5</c_nr_times>
-        <obc>0.3</obc>
-        <gain>140</gain>
-        <gamma>100</gamma>
-        <contrast>20</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-    </camera>
-
-    <camera id="1">
-      <iso value="118">
-        <ynr_weights>0,1,1,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,4,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>10</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>2</mergenumber>
-      </iso>
-
-      <iso value="218">
-        <ynr_weights>0,1,1,1,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,4,4,4,4,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>6</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>2</mergenumber>
-      </iso>
-
-      <iso value="418">
-        <ynr_weights>0,10,5,2,1,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,20,10,9,6,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>1</c_nr_times>
-        <obc>0.7</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="818">
-        <ynr_weights>0,10,10,8,4,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,20,10,9,5,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>0</y_nr_level>
-        <c_nr_level>15</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.5</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>3</mergenumber>
-      </iso>
-
-      <iso value="1618">
-        <ynr_weights>0,10,6,4,2,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,50,10,8,5,4,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>40</c_nr_level> 
-        <c_nr_times>2</c_nr_times>
-        <obc>0.5</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>0</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>4</mergenumber>
-      </iso>
-      
-      <iso value="2418">
-        <ynr_weights>0,20,8,6,6,1,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,18,8,6,4,5,2,2,2,2,2</cnr_weights>
-        <y_nr_level>2</y_nr_level>
-        <c_nr_level>55</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.4</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>80</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-      <iso value="3118">
-        <ynr_weights>0,30,10,10,5,5,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,60,15,10,7,6,2,2,2,2,2</cnr_weights>
-        <y_nr_level>1</y_nr_level>
-        <c_nr_level>47</c_nr_level>
-        <c_nr_times>2</c_nr_times>
-        <obc>0.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
-      </iso>
-
-    <iso value="3618">
-        <ynr_weights>0,30,10,10,5,5,1,1,1,1,1</ynr_weights>
-        <cnr_weights>0,60,15,10,7,6,2,2,2,2,2</cnr_weights>
-        <y_nr_level>4</y_nr_level>
-        <c_nr_level>60</c_nr_level>
-        <c_nr_times>4</c_nr_times>
-        <obc>0.2</obc>
-        <gain>100</gain>
-        <gamma>100</gamma>
-        <contrast>0</contrast>
-        <saturation>1024</saturation>
-        <sharpness>100</sharpness>
-        <spike_noise_level>16</spike_noise_level>
-        <block_cnr>1</block_cnr>
-        <mergenumber>5</mergenumber>
+        <sharpness_thres>85</sharpness_thres>
       </iso>
     </camera>
 
